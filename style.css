@@ -8,16 +8,16 @@
 }
 
 /* immagini */
-.item-1 {
+.n1 {
     background-image: url('img/pd1.jpeg');
 }
-.item-2 {
+.n2 {
     background-image: url('img/pd2.jpeg');
 }
-.item-3 {
+.n3 {
     background-image: url('img/pd3.jpeg');
 }
-.item-1, .item-2, .item-3 {
+.item {
     width: 300px;
     height: 372px;
     display: inline-block;
@@ -44,6 +44,6 @@
     bottom: 1em;
     visibility: hidden;
 }
-.item-1:hover .heart, .item-2:hover .heart, .item-3:hover .heart {
+.item:hover .heart {
     visibility: visible;
 }
