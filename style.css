@@ -42,4 +42,8 @@
     position: absolute;
     right: 150px;
     bottom: 1em;
+    visibility: hidden;
+}
+.item-1:hover .heart, .item-2:hover .heart, .item-3:hover .heart {
+    visibility: visible;
 }
