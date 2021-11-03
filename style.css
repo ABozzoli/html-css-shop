@@ -35,3 +35,11 @@
 .sale-5 {
     background-color: red;
 }
+
+/* cuoriccino */
+.heart {
+    color: red;
+    position: absolute;
+    right: 150px;
+    bottom: 1em;
+}
