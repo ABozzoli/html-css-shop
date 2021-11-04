@@ -23,6 +23,9 @@
     display: inline-block;
     position: relative;
 }
+.item:hover {
+    cursor: pointer;
+}
 
 /* sconti */
 .sale-30, .sale-5 {
@@ -42,8 +45,8 @@
     position: absolute;
     right: 150px;
     bottom: 1em;
-    visibility: hidden;
+    display: none;
 }
 .item:hover .heart {
-    visibility: visible;
+    display: block;
 }
